@@ -1,3 +1,4 @@
+import profile from '../assets/profile.jpg';
 import React from 'react';
 import { CheckCircle2, ArrowRight } from 'lucide-react';
 import { PERSONAL_INFO } from '../data/portfolioData';
@@ -13,7 +14,7 @@ export const About: React.FC = () => {
               <div className="relative overflow-hidden rounded-2xl border border-zinc-200 bg-white p-3 shadow-lg dark:border-zinc-800 dark:bg-zinc-900">
                 <div className="relative aspect-square w-full overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800">
                   <img
-                    src={PERSONAL_INFO.avatar}
+                    src={profile}
                     alt="Bikila - Computer Science"
                     referrerPolicy="no-referrer"
                     className="h-full w-full object-cover"
@@ -25,7 +26,7 @@ export const About: React.FC = () => {
                   </div>
                 </div>
                 <div className="mt-3 flex items-center justify-between text-xs text-zinc-500 dark:text-zinc-400 px-1">
-                  <span>Production-Focused Engineering</span>
+                  <span>Production-Focused Computer</span>
                   <span className="font-mono text-blue-600 dark:text-blue-400">Addis Ababa / Remote</span>
                 </div>
               </div>
