@@ -36,7 +36,7 @@ export const About: React.FC = () => {
           {/* Editorial Biography Column */}
           <div className="lg:col-span-7">
             <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-blue-600 dark:text-blue-400 mb-2">
-              <span>Computer ScienceBackground</span>
+              <span>Computer Science Background</span>
               <span aria-hidden="true">·</span>
               <span>About Bikila</span>
             </div>
